@@ -1,5 +1,7 @@
 """Module cod to Module 1"""
 import pandas as pd
+
+# How to acsees
 URL="automobile/imports-85.data"
 df=pd.read_csv(URL,header=None)
 print(df)
@@ -16,3 +18,12 @@ print(df.head(5))
 print(df.dtypes) #table of types in each colum
 print(df.describe()) #specific math features
 print(df.describe(include='all')) #not only numbers
+
+#Data bases
+#from dmodule import connect
+#connection=connect('databasename','username','pswd')
+#curcor=connection.cursor()
+#cursor.exacute('select * from mytable')
+#results=cursor.fetchall()
+#cursor.close()
+#connection.close()

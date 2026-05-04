@@ -13,3 +13,23 @@ analysis libraries into three groups:
 
 To read any data using Python's Pandas package,
 there are two important factors to consider: format and file path.
+
+There are two reasons to check data types in a dataset.
+1. Pandas automatically assigns types based
+on the encoding it detects from the original data table.
+2. The second reason, is that allows an experienced data scientists
+to see which Python functions can be applied to a specific column.
+
+NaN which stands for not a number.
+
+The two main concepts in
+the Python DB API are
+connection objects and query objects.
+
+The cursor method returns
+a new cursor object using the connection.
+The commit method is used to commit
+any pending transaction to the database.
+The rollback method causes the database to
+roll back to the start of any pending transaction.
+The close method is used to close a database connection.
