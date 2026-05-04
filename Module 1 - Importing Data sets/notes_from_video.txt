@@ -1,0 +1,15 @@
+We have divided the Python data
+analysis libraries into three groups:
+1. Scientific Computing Libraries:
+   - Pandas
+   - NumPy library
+   - SciPy
+2. Data visualization methods:
+   - Matplotlib
+   - Seaborn
+3. Machine learning algorithms:
+   - Scikit-learn library
+   - Statsmodels
+
+To read any data using Python's Pandas package,
+there are two important factors to consider: format and file path.
