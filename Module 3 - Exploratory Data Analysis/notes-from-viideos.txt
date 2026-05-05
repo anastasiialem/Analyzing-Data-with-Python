@@ -1,0 +1,21 @@
+Box plots are a great way to visualize numeric data,
+since you can visualize
+the various distributions of the data.
+
+The main features that the box plot shows are the median
+of the data which
+represents where the middle data point is,
+the upper quartile shows where the 75th percentile is,
+the lower quartile shows where the 25th percentile is.
+The data between the upper and lower quartile
+represents the inter-quartile range.
+
+With box plots, you can easily spot
+outliers and also see
+the distribution and skewness of the data.
+
+Correlation is a statistical metric for
+measuring to what extent different variables are interdependent.
+
+Pearson Correlation method will give you two values;
+the correlation coefficient and the p-value.
