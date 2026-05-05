@@ -1,0 +1,20 @@
+Data pre processing is often called
+data cleaning or data wrangling,
+and there are likely other terms.
+
+Normalization is a way to bring all data into
+a similar range for more useful comparison.
+
+There are several ways to normalize data:
+1. The first method, called simple feature scaling,
+just divides each value by the maximum value for that feature.
+2. The second method, called min max, takes each value x underscore old,
+subtract it from the minimum value of that feature,
+then divides by the range of that feature. Again,
+the resulting new values range between 0 and 1.
+3. The third method is called Z-score, or standard score.
+In this formula, for each value, you subtract the mu, which is the average
+of the feature and then divide by the standard deviation sigma.
+
+Binning is when you group values together into bins.
+For example, you can bin age into 0-5, 6-10, 11-15 and so on.
