@@ -1,0 +1,15 @@
+We usually store the data points in two data frame or NumPy arrays.
+The value we would like to predict is called the target that we store in
+the array y.
+We store the dependent variable in the data frame or array x.
+
+Why Use KDE Plots?
+KDE plots are beneficial in model evaluation for the following reasons:
+
+They provide a smooth approximation of the data distribution.
+They help compare the true vs. predicted distributions effectively.
+Unlike histograms, KDE plots are not sensitive to bin sizes.
+They can highlight deviations between observed and predicted values.
+
+Two important measures that we often use to determine the fit of a model are
+Mean Square Error, or MSE, and R-Squared value.
