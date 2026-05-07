@@ -1,0 +1,24 @@
+When we split a dataset,
+usually the larger portion of data is used for
+training and a smaller part is used for testing.
+For example, we can use 70% of the data for training.
+We then use 30% for testing.
+
+One of the most common out-of-sample evaluation metrics
+is cross validation.
+In this method, the dataset is split into k equal groups.
+Each group is referred to as a fold,
+for example, four folds.
+Some of the folds can be used as
+a training set which we use to train the model,
+and the remaining parts are used as
+a test set which we use to test the model.
+
+Conversely, as Alpha increases,
+the R^2 on the test data decreases.
+This is because the term Alpha prevents overfitting.
+
+Grid Search takes the model or objects you would like to train and
+different values of the hyperparameters.
+It then calculates the mean square error or r squared for
+various hyperparameter values, allowing you to choose the best values.
